@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">frameworkRoom</string>
+    <string-array name="przedmioty">
+        <item>wf</item>
+        <item>plastyka</item>
+        <item>informatyka</item>
+        <item>programowanie</item>
+        <item>fizyka</item>
+        <item>język angileski</item>
+        <item>język chinski</item>
+    </string-array>
 </resources>
