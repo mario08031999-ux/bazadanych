@@ -13,8 +13,8 @@ public class Nauczyciel {
     public String przedmiot;
 
     public Nauczyciel(String przedmiot, String imie) {
-        this.przedmiot = przedmiot;
         this.imie = imie;
+        this.przedmiot = przedmiot;
     }
 
     @Override
