@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
                         wybranyNauczyciel.imie = editText.getText().toString();
                         szkolaDataBase.getNauczycielDAO().zaktualizujDaneNauczyciela(wybranyNauczyciel);
                         arrayAdapter.notifyDataSetChanged();
+                        aktualizuj.setVisibility(View.INVISIBLE);
                     }
                 }
         );
