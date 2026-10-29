@@ -17,4 +17,9 @@ public class Nauczyciel {
         this.imie = imie;
     }
 
+    @Override
+    public String toString() {
+        return  "imie: " + imie + '\n' +
+                "przedmiot: " + przedmiot;
+    }
 }
